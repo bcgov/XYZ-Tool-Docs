@@ -1,0 +1,11 @@
+version: 1
+data_management_roles:
+  product_owner: Aubrey Roberson
+product_information:
+  ministry: CITZ
+  product_acronym: XYZ-CLI
+  product_description: Contains instructions for installation of XYZ tool for developers wishing to use it for development.
+  product_name: XYZ CLI Tool
+  program_area: Data Systems and Services Branch
+product_technology_information:
+  hosting_platforms: Private-Cloud-Openshift

@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: install-guide-for-xyz-application
+  title: Install Guide for XYZ application
+  description: Contains instructions for installation of XYZ tool for developers
+    wishing to use it for development.
+  annotations:
+    github.com/project-slug: bcgov/XYZ-Tool-Docs
+    backstage.io/techdocs-ref: dir:.
+    bcgovpubcode.gov.bc.ca/ministry: CITZ
+    bcgovpubcode.gov.bc.ca/program_area: Data Systems and Services Branch
+    bcgovpubcode.gov.bc.ca/product_name: XYZ CLI Tool
+    bcgovpubcode.gov.bc.ca/product_acronym: XYZ-CLI
+    bcgovpubcode.gov.bc.ca/product_owner: Aubrey Roberson
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:default/databc-aps
